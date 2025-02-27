@@ -1,0 +1,170 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-style: normal;   }
+
+button{
+    font-family: "Oswald", serif;
+    border-radius: 20px;
+    border: none;
+    background-color: #9499EA;
+    width: 250px;
+    height: 40px;
+    font-weight: 30px;
+    font-size: 24px;
+    color: white;   
+    cursor: pointer;    }
+
+.caixa-principal{
+    width: 100vw;
+    height: 100vh;    }
+
+
+.caixa-right{
+    display: inline-block;
+    height: 100vh;
+    width: 30%;
+    background-color: rgba(93,93,125,0.16);
+    position: absolute;   
+     
+
+}
+
+
+.caixa-left{
+    display: inline-block;    
+    width: 60%;
+    padding-left: 70px; 
+    margin-top: 20%;
+    font-size: 25px;
+    white-space:normal 
+
+
+}
+
+
+.foto{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 10%;
+    right: 25%;     }
+
+
+
+
+h1{
+    font-size:70px;
+    line-height:80px ;
+    color: #5D5D7D; 
+    width: 368px;   }  
+
+
+p{
+   width: 540px;   
+   height: 144;
+   top: -784px;
+   left: -6773px;
+   opacity: 0.6;
+ }
+
+button:hover{ opacity: 0.8; }
+button:active{opacity: 0.5;}
+
+
+header{
+       padding-left: 120px;
+       margin: 15px 0px;
+       color:#5D5D7D; }
+    
+
+
+a {
+    text-decoration: none;
+    position: relative;  
+    cursor: pointer;
+    margin-right: 20px;   }
+
+a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px; 
+    background-color:#5D5D7D; 
+    transform: scaleX(0); 
+    transition: transform 0.3s ease-in-out;  
+   ;}
+
+a:hover::after { transform: scaleX(1);  cursor: pointer }
+
+
+a:nth-child(2){
+    opacity: 0.4;
+}
+
+@media screen and (max-width:900px){
+    .caixa-left{
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;   }
+
+
+    .caixa-right{
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static; 
+        padding: 48px;}
+
+
+    .foto{ position: static; 
+           max-width: 90%;  }
+
+
+    header{ display: none;}
+
+
+    h1{
+        font-size: 36px;
+        line-height: 52px;
+        width: auto;
+        margin: 58px 50px 0px 50px;
+        text-align: center;  }
+
+
+    p{
+        margin: 15px 40px;
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;   }
+
+
+    button{
+        margin: 0 auto;
+        display: block;
+
+
+    }
+
+    
+
+    
+}
+
+   
+
+
+
+
+
+ 
+   
+  
+  
