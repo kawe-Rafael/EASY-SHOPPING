@@ -6,5 +6,5 @@
 <h1>PC</h1>
 <img src="https://github.com/kawe-Rafael/EASY-SHOPPING/blob/main/img/pagina%20PC.png.png?raw=true" width="80%px">
 <h1>MOBILE</h1>
-<img src="https://github.com/kawe-Rafael/EASY-SHOPPING/blob/main/img/pagina%20MOBILE.png.png?raw=true"  height="30%" width="40%">
+<img src="https://github.com/kawe-Rafael/EASY-SHOPPING/blob/main/img/pagina%20MOBILE.png.png?raw=true"  height="15%" width="30%">
 
